@@ -1,0 +1,11 @@
+{
+  "transport": "http",
+  "websocket": "wss://gtg.bears.house:8090",
+  "uri": "https://api.bearshares.com",
+  "url": "",
+  "dev_uri": "https://api.bearsharesdev.com",
+  "stage_uri": "https://api.bearsharesstage.com",
+  "address_prefix": "SHR",
+  "chain_id": "b510834141c312c2aa8837040734605f2333f1ecc4f634576372f9c12dc7e8b2",
+  "useAppbaseApi": true
+}

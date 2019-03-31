@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bears.js</title>
+</head>
+<body>
+
+<script src="../dist/bears.min.js"></script>
+<script>
+bears.api.getConfig(function(err, response){
+  console.log(err, response);
+});
+bears.api.getAccounts(['ned', 'dan'], function(err, response){
+  console.log(err, response);
+});
+bears.api.getAccountCount(function(err, response){
+  console.log(err, response);
+});
+</script>
+
+</body>
+</html>

@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Bears.js Stream</title>
+</head>
+<body>
+
+<script src="../dist/bears.min.js"></script>
+<script>
+
+bears.api.streamOperations(function (err, operations) {
+  operations.forEach(function (operation) {
+    console.log(operation);
+  });
+});
+</script>
+
+</body>
+</html>
