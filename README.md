@@ -30,6 +30,12 @@ Bears.js the JavaScript API for Bears blockchain
 Here is full documentation:
 https://github.com/bearshares/bears-js/tree/master/doc
 
+## Clone and compile to get bears.min.js
+```
+git clone https://github.com/bearshares/bears-js.git
+cd bears-js
+npm install
+```
 
 ## Browser
 ```html
@@ -56,7 +62,7 @@ https://api.bearshares.com By Default<br/>
 ## Examples
 ### Broadcast Vote
 ```js
-var bears = require('bears');
+var bears = require('@baaluo/bears-js');
 
 var wif = bears.auth.toWif(username, password, 'posting');
 bears.broadcast.vote(wif, voter, author, permlink, weight, function(err, result) {
